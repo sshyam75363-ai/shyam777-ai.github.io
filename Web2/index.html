@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Varman & Sri Cafe</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#home" class="brand">Varman & Sri Cafe</a>
+      <nav id="primary-navigation" class="nav-links" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation">Menu</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <span class="eyebrow">Fresh · Local · Crafted</span>
+          <h1>Wake up to better coffee.</h1>
+          <p>Hand-roasted blends, warm pastries, and a cozy place to connect. Enjoy seasonal drinks made from ethically sourced beans.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact">Order Now</a>
+            <a class="btn btn-secondary" href="#menu">See Menu</a>
+          </div>
+        </div>
+
+        <div class="hero-card">
+          <div class="hero-card__image" aria-hidden="true"></div>
+          <div class="hero-info">
+            <span class="hero-info__label">Daily Special</span>
+            <h2>Caramel Maple Latte</h2>
+            <p>Warm, smooth, and perfectly sweet — served all week with our house-made caramel drizzle.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="menu" class="section section-features">
+      <div class="container section-header">
+        <span class="eyebrow">Menu highlights</span>
+        <h2>Discover drinks made to brighten your day</h2>
+      </div>
+      <div class="container feature-grid">
+        <article class="feature-card">
+          <h3>Espresso Creations</h3>
+          <p>Classic lattes, flat whites, cortados, and creamy cappuccinos made fresh to order.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Seasonal Blends</h3>
+          <p>Small-batch beans roasted in-house for vivid flavor, fragrance, and customer favorites.</p>
+        </article>
+        <article class="feature-card">
+          <h3>Bakery Bites</h3>
+          <p>Fresh croissants, muffins, and breakfast sandwiches baked daily for a cozy coffee pairing.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="section about-section">
+      <div class="container about-grid">
+        <div>
+          <span class="eyebrow">About us</span>
+          <h2>Slow coffee made with genuine care.</h2>
+          <p>We source ethically grown beans and prepare every drink by hand. Our space is designed for conversations, work breaks, and meeting friends over exceptional coffee.</p>
+        </div>
+        <div class="about-details">
+          <div>
+            <h3>Open daily</h3>
+            <p>7:00 AM � 8:00 PM</p>
+          </div>
+          <div>
+            <h3>Easy order</h3>
+            <p>Order ahead online or pop in for a relaxing walk-in experience.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="contact-copy">
+          <span class="eyebrow">Get in touch</span>
+          <h2>Book a table or ask about catering.</h2>
+          <p>Send us a message and we’ll reply with availability, menu details, and event options.</p>
+        </div>
+
+        <form class="contact-form" action="#" method="post">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your email" required>
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" placeholder="How can we help?" required></textarea>
+
+          <button type="submit" class="btn btn-primary">Send message</button>
+        </form>
+      </div>
+    </section>
+
+    <section id="tasks" class="section todo-section">
+      <div class="container">
+        <div class="section-header">
+          <span class="eyebrow">Daily productivity</span>
+          <h2>Organize your tasks while you enjoy great coffee.</h2>
+        </div>
+
+        <div class="todo-app">
+          <form id="todo-form" class="todo-form">
+            <input id="task-input" class="todo-input" type="text" placeholder="Add a new task" aria-label="New task" required>
+            <button type="submit" class="todo-button">Add task</button>
+          </form>
+
+          <ul id="task-list" class="todo-list" aria-live="polite"></ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2026 Varman & Sri Coffee House</p>
+      <p>123 Bean Street · Open daily · 7 AM · 8 PM</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
