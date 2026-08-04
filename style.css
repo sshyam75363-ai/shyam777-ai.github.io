@@ -24,7 +24,7 @@ body {
   margin: 0;
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   min-height: 100vh;
-  background: linear-gradient(rgba(13, 18, 22, 0.35), rgba(13, 18, 22, 0.35)), url("images/bg.1.jpg");
+  background: linear-gradient(rgba(13, 18, 22, 0.35), rgba(13, 18, 22, 0.35)), url("images/bg.1.jpg.jpg");
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
